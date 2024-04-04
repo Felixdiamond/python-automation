@@ -7,7 +7,7 @@ import google.generativeai as genai
 from rich.console import Console
 from rich.markdown import Markdown
 
-GOOGLE_API_KEY= 'AIzaSyAfc74s_ARa5vHr4GVi0VEUHJjvk_R5F4E'
+GOOGLE_API_KEY= 'YOUR API KEY'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
