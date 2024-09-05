@@ -17,7 +17,7 @@ screenshot_path = '/path/to/screenshot.png'
 
 # Setup Firefox options
 options = Options()
-options.headless = False
+options.headless = True
 
 print("Initializing Firefox driver...")
 service = Service(geckodriver_path)
